@@ -26,7 +26,7 @@ She reasons **forward from a conclusion she already holds**, then writes the *st
 → Her fix is a **brake on a working engine**, not a rebuild.
 
 ## Her best-work benchmark (check these moves are present in every draft)
-Thesis-first intro with explicit roadmap; anticipating the reader's next question and answering it in the following paragraph; concrete example sentences with alternative completions. Residual flags even in her best work: uncited data claims ("based on what data?"), terms without setup ("quick turn"), uncalibrated words ("perfectly"), measurement details arriving late, the L2 grammar set. Top band → higher = same passes at finer grain.
+Thesis-first intro with explicit roadmap; anticipating the reader's next question and answering it in the following paragraph; concrete example sentences with alternative completions. Residual flags even in her best work: uncited data claims ("based on what data?"), terms without setup ("quick turn"), uncalibrated words ("perfectly"), measurement details arriving late, the L2 grammar set. 80→90 = same passes at finer grain.
 
 ## Her failure profile (five recurring modes)
 1. Reviewer questions asked twice, never answered in place (proportion formula; group matching)
