@@ -28,11 +28,35 @@ literature-triage → reading-companion → writing-companion → research-revie
 
 **朝最弱的主张走。** 四个 skill 反复逼你回答同一个问题：*这份研究实际测量了什么，它最少能让我说什么？* 过度声称是好论证丢分最常见的方式，而且从内部看不见。
 
+## 需要什么
+
+- **Claude Code** —— 这四个是 Claude Code skill，跑起来不需要别的东西。
+- **Consensus MCP** —— 只有 `literature-triage` 需要。这个 skill 靠 Consensus 检索论文，并且明确禁止引用任何不是 Consensus 返回的文献，所以没连 Consensus 它跑不了。另外三个 skill 没有任何外部依赖，装上就能用。
+
 ## 安装
 
-把四个文件夹复制进你的 Claude Code skills 目录（`~/.claude/skills/`）。每个 skill 就是一个 `SKILL.md`。
+**最省事 —— 把下面这段粘给 Claude Code，它会帮你装好：**
 
-skill 里的路径用的是占位符，替换成你自己的：
+```
+把这个仓库里的四个 skill 装进我的 Claude Code skills 目录
+（~/.claude/skills/ ，Windows 上是 %USERPROFILE%\.claude\skills\）：
+https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-
+每个 skill 是一个文件夹、里面一个 SKILL.md —— 保持这个结构，文件夹名不要改。
+
+然后打开每个 SKILL.md，把占位符替换成我的真实路径：
+<ACADEMIC_ROOT> 和 <WORKSPACE_ROOT>。判断不了就问我。
+最后建一个空文件 <ACADEMIC_ROOT>/feedback/feedback-lessons-log.md，
+给 skill 留个写入的地方。
+```
+
+**或者手动装：**
+
+```bash
+git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-.git
+cp -r critical-thinking-academic-read-write-review-/{literature-triage,reading-companion,writing-companion,research-reviewer} ~/.claude/skills/
+```
+
+然后自己替换占位符：
 
 - `<ACADEMIC_ROOT>/` —— 你的笔记、feedback、产出物放在哪
 - `<WORKSPACE_ROOT>/` —— 你的项目根目录
