@@ -40,7 +40,7 @@ literature-triage → reading-companion → writing-companion → research-revie
 ```
 把这个仓库里的四个 skill 装进我的 Claude Code skills 目录
 （~/.claude/skills/ ，Windows 上是 %USERPROFILE%\.claude\skills\）：
-https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-
+https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review
 每个 skill 是一个文件夹、里面一个 SKILL.md —— 保持这个结构，文件夹名不要改。
 
 然后打开每个 SKILL.md，把占位符替换成我的真实路径：
@@ -52,7 +52,7 @@ https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review
 **或者手动装：**
 
 ```bash
-git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-.git
+git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review.git
 cp -r critical-thinking-academic-read-write-review-/{literature-triage,reading-companion,writing-companion,research-reviewer} ~/.claude/skills/
 ```
 
