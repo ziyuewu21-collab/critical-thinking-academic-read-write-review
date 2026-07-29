@@ -1,5 +1,7 @@
 # Critical Thinking: Academic Read / Write / Review
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Four Claude Code skills that turn academic work into deliberate practice instead of outsourcing.
 
 The design principle behind all four: **automate the drudge, protect the muscle.** Searching, formatting and hunting for a page number are chores worth eliminating. Judging evidence, forming an argument and writing prose are capabilities worth keeping — so none of these skills produce the deliverable for you.
