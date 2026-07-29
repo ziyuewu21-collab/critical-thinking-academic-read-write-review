@@ -39,7 +39,7 @@ literature-triage → reading-companion → writing-companion → research-revie
 
 ```
 Install the four skills from
-https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-
+https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review
 into my Claude Code skills directory (~/.claude/skills/ , or
 %USERPROFILE%\.claude\skills\ on Windows). Each skill is one folder
 containing a single SKILL.md — keep that structure and keep the folder names.
@@ -53,7 +53,7 @@ as an empty file so the skills have somewhere to write.
 **Or by hand:**
 
 ```bash
-git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-.git
+git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review.git
 cp -r critical-thinking-academic-read-write-review-/{literature-triage,reading-companion,writing-companion,research-reviewer} ~/.claude/skills/
 ```
 
