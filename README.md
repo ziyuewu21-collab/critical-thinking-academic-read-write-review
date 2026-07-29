@@ -45,3 +45,11 @@ These skills lean on live judgement, which weaker models do badly — and the fa
 ## Note
 
 These were built for one person's specific weaknesses and tuned against real marked feedback. The protocols generalise; the diagnostics won't. Swap in your own.
+
+## License
+
+Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — © 2026 Ziyue Wu.
+
+Use them, adapt them, share them. Credit me and link back. **No commercial use** — no reselling, no bundling into a paid course or paid product — without my written permission.
+
+**中文**：可自由使用、修改、转发。转载请署名 Ziyue Wu 并附上本仓库链接。**禁止商用** —— 不得转卖、不得打包进付费课程或付费产品，商用需事先取得书面许可。
