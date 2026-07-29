@@ -21,7 +21,7 @@ Same as reading-companion: Chinese for operational coaching, English for all aca
 
 ### Step 0 — Intake (one exchange, no more)
 Establish three things, inferring what's inferable instead of asking:
-- **Which thread?** (dissertation / neuroscience essay / multilingualism essay / child development — see `1-ACADEMIC/CLAUDE.md`)
+- **Which thread?** (dissertation / a specific essay / any other live thread — see `<ACADEMIC_ROOT>/CLAUDE.md`)
 - **Her RQ or direction in one line.** If she gave only a topic, draft the sharpest one-line RQ you can from her materials and ask "这样定位对吗?" — best guess first, adjust after.
 - **What's already read:** check `<ACADEMIC_ROOT>/reading-notes/` and exclude those papers from the pool (list them as "already in your library").
 
