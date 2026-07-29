@@ -28,11 +28,36 @@ literature-triage → reading-companion → writing-companion → research-revie
 
 **Weakest-claim direction.** Every skill pushes the same question: *what did this actually measure, and what is the least it lets me say?* Overclaiming is the most common way a good argument loses marks, and it's invisible from the inside.
 
+## Requirements
+
+- **Claude Code** — these are Claude Code skills, nothing else needed to run them.
+- **Consensus MCP** — required by `literature-triage` only. That skill searches papers and refuses to cite anything Consensus didn't return, so without it the skill can't run. The other three have no external dependencies.
+
 ## Setup
 
-Copy the four folders into your Claude Code skills directory (`~/.claude/skills/`). Each is a single `SKILL.md`.
+**Fastest — paste this into Claude Code and it will install them for you:**
 
-Paths inside the skills use placeholders — replace with your own:
+```
+Install the four skills from
+https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-
+into my Claude Code skills directory (~/.claude/skills/ , or
+%USERPROFILE%\.claude\skills\ on Windows). Each skill is one folder
+containing a single SKILL.md — keep that structure and keep the folder names.
+
+Then open each SKILL.md and replace the placeholders with my real folders:
+<ACADEMIC_ROOT> and <WORKSPACE_ROOT>. Ask me what they should be if you
+can't tell. Finally create <ACADEMIC_ROOT>/feedback/feedback-lessons-log.md
+as an empty file so the skills have somewhere to write.
+```
+
+**Or by hand:**
+
+```bash
+git clone https://github.com/ziyuewu21-collab/critical-thinking-academic-read-write-review-.git
+cp -r critical-thinking-academic-read-write-review-/{literature-triage,reading-companion,writing-companion,research-reviewer} ~/.claude/skills/
+```
+
+Then replace the placeholders yourself:
 
 - `<ACADEMIC_ROOT>/` — where your notes, feedback and outputs live
 - `<WORKSPACE_ROOT>/` — your project root
